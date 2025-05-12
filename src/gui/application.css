@@ -1,0 +1,26 @@
+.button {
+    -fx-background-color: #373737;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-background-radius: 10px;
+    -fx-opacity: 0.8;
+}
+
+.button:hover {
+    -fx-background-color: #072a31; 
+    -fx-opacity: 1.0; 
+}
+
+.label {
+    -fx-font-size: 18px;
+    -fx-text-fill: #333;
+}
+
+.root {
+    -fx-background-color: #181619;  
+}
+
+.anchor-pane-transparente {
+    -fx-background-color: transparent;
+}

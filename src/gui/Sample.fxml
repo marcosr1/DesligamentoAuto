@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="330.0" prefWidth="359.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.SampleDesController">
+   <children>
+      <Circle fx:id="c" fill="WHITE" layoutX="319.0" layoutY="287.0" radius="5.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="c1" fill="WHITE" layoutX="48.0" layoutY="287.0" radius="5.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="c2" fill="WHITE" layoutX="195.0" layoutY="297.0" radius="5.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="c3" fill="WHITE" layoutX="314.0" layoutY="61.0" radius="5.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="c5" fill="WHITE" layoutX="164.0" layoutY="38.0" radius="5.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="c6" fill="WHITE" layoutX="293.0" layoutY="165.0" radius="5.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="c7" fill="WHITE" layoutX="324.0" layoutY="71.0" radius="5.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <Circle fx:id="c4" fill="WHITE" layoutX="63.0" layoutY="127.0" radius="5.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+      <VBox layoutX="83.0" layoutY="43.0" prefHeight="244.0" prefWidth="193.0">
+         <children>
+            <Button fx:id="bt2hr" mnemonicParsing="false" onAction="#onBt2h" prefHeight="42.0" prefWidth="191.0" text="Desligar em 2 horas" />
+            <Button fx:id="bt1hr" mnemonicParsing="false" onAction="#onBt1h" prefHeight="42.0" prefWidth="191.0" text="Desligar em 1 horas">
+               <VBox.margin>
+                  <Insets top="25.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="bt30m" mnemonicParsing="false" onAction="#onBt30m" prefHeight="42.0" prefWidth="191.0" text="Desligar em 30 minutos">
+               <VBox.margin>
+                  <Insets top="25.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="btCancelar" mnemonicParsing="false" onAction="#onBtCancelar" prefHeight="42.0" prefWidth="191.0" text="Cancelar desligamento">
+               <VBox.margin>
+                  <Insets top="25.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
